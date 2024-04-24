@@ -1,0 +1,108 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2018/01/15/09/35/bitcoin-3083578_1280.jpg');
+    background-size: cover;
+}
+
+h1 { /*My blog about crypto*/
+    color:white;
+    font-size: 64px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    position:relative;
+    top:3%;
+}
+
+nav,.nav-item { /*Navigation bar*/
+    display: flex;
+}
+
+nav { /*Navigation bar*/
+    border-radius: 6px;
+    background-image: linear-gradient(#303030 13%, #1e1e1e 40%, #0c0d11 86%);
+    color: rgba(255, 255, 255, 0.6);
+    text-shadow: 0 -2px 0 black;
+    box-shadow: 1px 2px 4px #141414, 0 4px 12px #0a0a0a;
+}
+  
+.nav-item:not(.active):hover { /*Navigation bar*/
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.nav-item a { /*Navigation bar*/
+    color:inherit;
+    text-decoration: none;
+    padding: 3ch;
+}
+
+h2 { /*My articles*/
+    color:rgb(255, 174, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+img { /*images from My articles*/
+    max-width: 350px;
+    float:left;
+    border-radius: 10px;
+    border: 3px solid white;
+    margin-right: 20px;
+}
+
+img:not(.active):hover { /*images from My articles when stay on cursor*/
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.text h2:not(.active):hover { /*h2 from My articles when stay on cursor*/
+    color: rgba(241, 39, 39, 0.87);
+}
+
+.text p:not(.active):hover { /*p from My articles when stay on cursor*/
+    color: rgba(241, 39, 39, 0.87);
+}
+
+.block { /*article block*/
+    margin: 100px auto;
+    position:relative;
+    top:-5%;
+    width: 80%;
+    padding:1%;
+}
+
+ul { /*contact.html*/
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table { /*contact.html*/
+    border-collapse: collapse;
+    width: 50%;  
+    margin: 0 auto;
+}
+  
+th, td { /*contact.html*/
+    padding: 15px;  text-align: left;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #5c5b59;
+}
+
+.aboutbitcoin { /*first article*/
+    text-align:center;
+    font-size:50px;
+    color:#ff9100;
+}
+
+p { /*first article*/
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5; 
+    margin-bottom: 15px;
+    margin-left:45px;
+    margin-right:45px;
+}
+
+.orderlist { /*block*/
+    margin-left:30px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
